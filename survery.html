@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>運動習慣調查</title>
+
+    <style type="text/css">
+        body {
+            background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190617/ourmid/pngtree-healthy-sports-poster-background-template-daquan-image_126741.jpg");
+            background-repeat: no-repeat;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>運動習慣調查</h2>
+    <form>
+        <div>
+            <label for="">姓名</label>
+            <input type="text" name="userName" id="userName" required />
+        </div>
+        <div>
+            <label for="">你的性別</label>
+            <input type="radio" name="sex" id="boy" >
+            <label for="boy">男生</label>
+            <input type="radio" name="sex" id="girl">
+            <label for="girl">女生</label>
+        </div>
+        <div>
+            <label for="">你的電話</label>
+            <input type="number" name="mobile" id="mobile" pattern=’\d{4}[-]\d{6}’ required />
+        </div>
+        <div>
+            <label for="">你的年齡</label>
+            <input type="radio" name="age" id="">
+            <label for="">20-29</label>
+            <input type="radio" name="age" id="">
+            <label for="">30-39</label>
+            <input type="radio" name="age" id="">
+            <label for="">40-49</label>
+            <input type="radio" name="age" id="">
+            <label for="">50以上</label>
+        </div>
+        <div>
+            <label for="">你的運動頻率</label>
+            <input type="radio" name="freq" id="">
+            <label for="">每天運動</label>
+            <input type="radio" name="freq" id="">
+            <label for="">4-6次</label>
+            <input type="radio" name="freq" id="">
+            <label for="">2-3次</label>
+            <input type="radio" name="freq" id="">
+            <label for="">0-1次</label>
+        </div>
+        <div>
+            <label for="">你習慣的運動場所（可複選）</label>
+            <br>
+            <input type="checkbox" name="place" id="">
+            <label for="">健身房</label>
+            <input type="checkbox" name="place" id="">
+            <label for="">家裡</label>
+            <input type="checkbox" name="place" id="">
+            <label for="">操場</label>
+            <br>
+            <input type="checkbox" name="place" id="">
+            <label for="">公園</label>
+            <input type="checkbox" name="place" id="">
+            <label for="">特定運動場所（游泳池,羽毛球館等等）</label>
+            <input type="checkbox" name="place" id="">
+            <label for="">其他</label>
+        </div>
+        <div>
+            <label for="">你常做的運動項目</label>
+            <br>
+            <input type="checkbox" name="sportItem" id="">
+            <label for="">跑步</label>
+            <input type="checkbox" name="sportItem" id="">
+            <label for="">健身</label>
+            <input type="checkbox" name="sportItem" id="">
+            <label for="">瑜伽</label>
+            <input type="checkbox" name="sportItem" id="">
+            <label for="">騎單車</label>
+            <input type="checkbox" name="sportItem" id="">
+            <label for="">游泳</label>
+            <br>
+            <input type="checkbox" name="sportItem" id="">
+            <label for="">籃球</label>
+            <input type="checkbox" name="sportItem" id="">
+            <label for="">排球</label>
+            <input type="checkbox" name="sportItem" id="">
+            <label for="">桌球</label>
+            <input type="checkbox" name="sportItem" id="">
+            <label for="">羽球</label>
+            <input type="checkbox" name="sportItem" id="">
+            <label for="">其他ｂ</label>
+        </div>
+        <div>
+            <label for="">你每次運動時間（可複選）</label>
+            <input type="checkbox" name="sportTime" id="">
+            <label for="">30分鐘內</label>
+            <input type="checkbox" name="sportTime" id="">
+            <label for="">30分鐘至1小時</label>
+            <input type="checkbox" name="sportTime" id="">
+            <label for="">1小時-2小時</label>
+            <input type="checkbox" name="sportTime" id="">
+            <label for="">2小時以上</label>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+</body>
+
+</html>
